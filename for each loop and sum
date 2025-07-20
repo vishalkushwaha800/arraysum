@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class sumwithforeachloop {
+    public static void main(String[] args) {
+        int[] marks = {78, 98, 70, 69, 59};
+        int sum = 0;
+        for (int element : marks) {
+            System.out.println(element);
+        sum += element;
+    }
+    System.out.println("The sum of the array:"+sum);
+}
+
+
+
+
+
+
+
+    }
+
+
+
+
