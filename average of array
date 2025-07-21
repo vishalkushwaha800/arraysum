@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class averagewithforeachloop {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the number of the marks");
+        int size= sc.nextInt();
+        int [] marks = new int[size];
+
+        System.out.println("Enter the marks :");
+        for (int i = 0; i<size; i++){
+            marks[i] = sc.nextInt();
+        }
+        int sum = 0;
+
+
+        for (int element : marks) {
+            System.out.println(element);
+            sum += element;
+        }
+        float average  = (float)sum/marks.length;
+    System.out.println("The average marks in physics :"+ average);
+}
+
+
+
+
+
+
+
+    }
+
+
+
+
